@@ -1,0 +1,12 @@
+s#\( 00[89A-F].  8  00 00 .. .. .. .. .. .. $\)#\1  Emergency 0x0000    No Error or Error Reset (WR)#
+s#\( 00[89A-F].  8  00 10 .. .. .. .. .. .. $\)#\1  Emergency 0x1000    Generic Error or JSCM_SYS_STATE_ERROR_BIT#
+s#\( 00[89A-F].  8  00 23 .. .. .. .. .. .. $\)#\1  Emergency 0x2300    Total current is to high or JSCM_SYS_STATE_TOTAL_OVERCURRENT#
+s#\( 00[89A-F].  8  00 31 .. .. .. .. .. .. $\)#\1  Emergency 0x3100    Main Voltage out of range or JSCM_SYS_STATE_ECU_OVERVOLTAGE#
+s#\( 00[89A-F].  8  00 42 .. .. .. .. .. .. $\)#\1  Emergency 0x4200    Device Temperature is to High or JSCM_SYS_STATE_OVERTEMPERATURE#
+s#\( 00[89A-F].  8  10 81 .. .. .. .. .. .. $\)#\1  Emergency 0x8110    CAN Overrun (Objects lost)#
+s#\( 00[89A-F].  8  10 82 .. .. .. .. .. .. $\)#\1  Emergency 0x8210    PDO not processed due to length error#
+s#\( 00[89A-F].  8  20 82 .. .. .. .. .. .. $\)#\1  Emergency 0x8220    PDO length exceeded#
+s#\( 00[89A-F].  8  30 81 .. .. .. .. .. .. $\)#\1  Emergency 0x8130    Heartbeat Error : own heartbeat received from external sender#
+s#\( 00[89A-F].  8  40 81 .. .. .. .. .. .. $\)#\1  Emergency 0x8140    recovered from bus off#
+s#\( 00[89A-F].  8  .. 8F .. .. .. .. .. .. $\)#\1  Emergency 0x8140    Life Guard Error or Heartbeat Error#
+s#\( 00[89A-F].  8  .. FF .. .. .. .. .. .. $\)#\1  Emergency 0xFFXX    Vendor specific#    
