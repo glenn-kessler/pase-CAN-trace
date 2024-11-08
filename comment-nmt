@@ -1,0 +1,5 @@
+s#\( 00[02]0  2  01 .. $\)#\1                    NMT OPERATIONAL#
+s#\( 00[02]0  2  80 .. $\)#\1                    NMT PREOPERATIONAL#
+s#\( 00[02]0  2  81 .. $\)#\1                    NMT RESET#
+s#\( 00[02]0  2  02 .. $\)#\1                    NMT STOP#
+s#\( 00[02]0  2  82 .. $\)#\1                    NMT RESET COMMUNICATION#
